@@ -98,7 +98,7 @@ if __name__ == '__main__':
 
     auth_link = auth_link()
     print("Opening authentication prompt in web browser. If a browser doesn't get launched, please click on this link:")
-    print("\u001b[36;1m" + auth_link + "\u001b[0m")
+    print("\u001b[36m" + auth_link + "\u001b[0m")
     webbrowser.open(auth_link, new = 2)
 
     myServer = HTTPServer(('', 8080), MyServer)
