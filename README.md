@@ -1,7 +1,7 @@
 # mal-authtoken-generator
 Simple python script to generate your own MyAnimeList OAuth authentication token.
 
-Heavily inspired with [this guide](https://myanimelist.net/blog.php?eid=835707), 
+Heavily inspired by [this guide](https://myanimelist.net/blog.php?eid=835707), 
 you can use this simple python script to generate an OAuth token to get access 
 to MyAnimeList's API.
 
