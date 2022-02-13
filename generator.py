@@ -82,7 +82,7 @@ def ask_for_client_id():
     else:
         if has_client_id == "n":
             print("Please create a new Client ID here: \u001b[36mhttps://myanimelist.net/apiconfig/create\u001b[0m")
-            print("\t\u001b[37;1m1. \u001b[0mSet the App Redirect URL to \u001b[36;1m\"http://localhost/oauth\"\u001b[0m")
+            print("\t\u001b[37;1m1. \u001b[0mSet the App Redirect URL to \u001b[36;1m\"http://localhost:8080\"\u001b[0m")
             print("\t\u001b[37;1m2. \u001b[0mRestart my script again and then enter your brand new Client ID!")
             print("Refer to this guide for more details: \u001b[36mhttps://myanimelist.net/blog.php?eid=835707\u001b[0m")
         else:
